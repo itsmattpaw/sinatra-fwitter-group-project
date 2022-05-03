@@ -1,0 +1,6 @@
+<div class="container">
+    <h1>Welcome, to Fwitter!</h1>
+    <% Tweet.all.each do |tweet|%>
+        <p><%= tweet.content %></p>
+    <%end%>
+</div>
